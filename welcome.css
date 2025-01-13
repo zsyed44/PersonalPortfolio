@@ -52,7 +52,9 @@ body {
     text-align: center;
     margin-top: 20px;
     display: block;
-    animation: fadeIn 2s ease-in;
+    opacity: 0;
+    animation-delay: 3s;
+    animation: fadeIn 3s ease-in;
 }
 
 @keyframes animate {
